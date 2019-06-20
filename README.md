@@ -33,7 +33,7 @@ The following [environment variables](https://circleci.com/docs/2.0/env-vars/#se
 | ------------------------------ | --------------------------------------------------------- |
 | `AWS_ACCESS_KEY_ID`            | Used by the AWS CLI                                       |
 | `AWS_SECRET_ACCESS_KEY `       | Used by the AWS CLI                                       |
-| `AWS_DEFAULT_REGION`           | Used by the AWS CLI. Example value: "us-east-1" (Please make sure the specified region is supported by the Fargate launch type)                          |
+| `AWS_REGION`           | Used by the AWS CLI. Example value: "us-east-1" (Please make sure the specified region is supported by the Fargate launch type)                          |
 | `AWS_ACCOUNT_ID`               | AWS account id. This information is required for deployment.                                   |
 | `AWS_RESOURCE_NAME_PREFIX`     | Prefix that some of the required AWS resources are assumed to have in their names. The value should correspond to the `aws_resource_prefix` variable value in `terraform_setup/terraform.tfvars`.                             |
 
